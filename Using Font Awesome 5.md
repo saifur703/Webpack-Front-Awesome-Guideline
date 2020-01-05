@@ -25,6 +25,14 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";
 library.add(faCheck);
 dom.watch();
 ```
+for multiple icon
+```
+library.add({
+  faCheck,
+  faAddressBook,
+  faCar
+});
+```
 
 #### Step 4: Add the icon to your HTML
 ```
